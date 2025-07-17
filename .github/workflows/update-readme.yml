@@ -22,8 +22,8 @@ jobs:
           
       - name: Install dependencies
         run: |
-          npm init -y
-          npm install @octokit/rest node-fetch
+          echo '{"type": "module"}' > package.json
+          npm install @octokit/rest
           
       - name: Update README with activity
         run: node update-readme.js
