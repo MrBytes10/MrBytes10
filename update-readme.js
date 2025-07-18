@@ -9,6 +9,33 @@ const octokit = new Octokit({
 
 const username = process.env.USERNAME || 'MrBytes10';
 
+// Get the WakaTime API key from environment variables
+const wakaApiKey = process.env.WAKATIME_API_KEY;
+
+// *** NEW FUNCTION TO GET WAKATIME STATS ***
+async function getWakaTimeStats() {
+  if (!wakaApiKey) {
+    console.warn('WakaTime API Key not found. Skipping WakaTime stats.');
+    return 'WakaTime API Key not set. Could not fetch stats.';
+  }
+  try {
+    const response = await fetch(`https://wakatime.com/api/v1/users/current/stats/last_7_days?api_key=${wakaApiKey}`);
+    if (!response.ok) {
+        throw new Error(`WakaTime API response not OK: ${response.statusText}`);
+    }
+    const stats = await response.json();
+    const topLanguages = stats.data.languages
+      .slice(0, 5) // Get top 5 languages
+      .map(lang => `- ${lang.name}: ${lang.text} (${lang.percent}%)`)
+      .join('\n');
+
+    return `**💻 Coding Activity (Last 7 Days)**\n\n${topLanguages}`;
+  } catch (error) {
+    console.error(`Error fetching WakaTime stats: ${error.message}`);
+    return '❌ Could not retrieve WakaTime stats.';
+  }
+}
+
 // This function fetches recent public events. It's working correctly.
 async function getRecentActivity() {
   try {
@@ -147,20 +174,27 @@ async function updateReadme() {
   console.log('🚀 Starting enhanced README update...');
   let readme = fs.readFileSync('README.md', 'utf8');
 
+   // Fetch all data in parallel for speed
+  const [stats, activity, latestProjects, wakaStats] = await Promise.all([
+    getAccurateGitHubStats(),
+    getRecentActivity(),
+    getLatestProjects(),
+    getWakaTimeStats() // Fetch WakaTime data
+  ]);
+
   const stats = await getAccurateGitHubStats();
   
   // This is the critical block that was being skipped.
+ // Update GitHub Stats sections
   if (stats) {
-    console.log('✅ Statistics fetched successfully. Updating README sections...');
+    console.log('✅ GitHub stats fetched. Updating sections...');
     const contributionSummary = `📊 **${stats.totalRepos}** repositories | ⭐ **${stats.totalStars}** stars received | 🍴 **${stats.totalForks}** forks | 👥 **${stats.followers}** followers | 🔥 **${stats.recentCommits1Month}** commits (last month) | 📈 **${stats.activeReposCount}** active repos`;
     readme = readme.replace(/<!-- CONTRIBUTION_SUMMARY:START -->[\s\S]*?<!-- CONTRIBUTION_SUMMARY:END -->/, `<!-- CONTRIBUTION_SUMMARY:START -->\n${contributionSummary}\n<!-- CONTRIBUTION_SUMMARY:END -->`);
     
     const accountAge = new Date().getFullYear() - stats.accountCreated;
     const currentDate = new Date().toLocaleDateString('en-US', { dateStyle: 'long' });
-
     const realTimeStats = `
 ## 📊 Real-Time GitHub Statistics
-
 ### 🎯 Profile Overview
 - **Total Repositories:** ${stats.totalRepos}
 - **Total Stars Earned:** ${stats.totalStars} ⭐
@@ -169,28 +203,24 @@ async function updateReadme() {
 - **Following:** ${stats.following} 👥
 - **Public Gists:** ${stats.publicGists} 📝
 - **Account Age:** ${accountAge} years (since ${stats.accountCreated})
-
 ### 🔥 Contribution Activity
 - **Last Week:** ${stats.recentCommits1Week} commits
 - **Last Month:** ${stats.recentCommits1Month} commits
 - **Last 6 Months:** ${stats.recentCommits6Months} commits
-
 ### 💻 Language Distribution (by code volume)
 ${stats.topLanguagesByBytes.map(lang => `- ${lang}`).join('\n')}
-
 ---
-*📅 Statistics last updated: ${currentDate}*
-`;
+*📅 Statistics last updated: ${currentDate}*`;
     readme = readme.replace(/<!-- REALTIME_STATS:START -->[\s\S]*?<!-- REALTIME_STATS:END -->/, `<!-- REALTIME_STATS:START -->\n${realTimeStats}\n<!-- REALTIME_STATS:END -->`);
-  } else {
-    console.error('❌ Could not generate stats. The relevant README sections will not be updated.');
   }
 
-  const activity = await getRecentActivity();
+  // Update other sections
+  console.log('✅ Other data fetched. Updating sections...');
   readme = readme.replace(/<!-- GITHUB_ACTIVITY:START -->[\s\S]*?<!-- GITHUB_ACTIVITY:END -->/, `<!-- GITHUB_ACTIVITY:START -->\n${activity}\n<!-- GITHUB_ACTIVITY:END -->`);
-
-  const latestProjects = await getLatestProjects();
   readme = readme.replace(/<!-- LATEST_PROJECTS:START -->[\s\S]*?<!-- LATEST_PROJECTS:END -->/, `<!-- LATEST_PROJECTS:START -->\n${latestProjects}\n<!-- LATEST_PROJECTS:END -->`);
+  
+  // Update WakaTime section
+  readme = readme.replace(/<!-- WAKATIME_STATS:START -->[\s\S]*?<!-- WAKATIME_STATS:END -->/, `<!-- WAKATIME_STATS:START -->\n${wakaStats}\n<!-- WAKATIME_STATS:END -->`);
 
   fs.writeFileSync('README.md', readme);
   console.log('✅ README update process finished!');
