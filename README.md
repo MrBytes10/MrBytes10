@@ -17,7 +17,7 @@
 
 ## 📈 Contribution Summary
 <!-- CONTRIBUTION_SUMMARY:START -->
-📊 **78** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **32** followers | 🔥 **150** commits (last month) | 📈 **20** active repos
+📊 **78** repositories | ⭐ **3** stars received | 🍴 **1** forks | 👥 **32** followers | 🔥 **21** commits (last month) | 📈 **7** active repos
 <!-- CONTRIBUTION_SUMMARY:END -->
 
 ## 🚀 Recent Activity
@@ -44,24 +44,33 @@
 <!-- LATEST_PROJECTS:END -->
 
 <!-- REALTIME_STATS:START -->
+
 ## 📊 Real-Time GitHub Statistics
 
 ### 🎯 Profile Overview
-- **Total Repositories:** 0
-- **Total Stars Earned:** 0 ⭐
-- **Total Forks:** 0 🍴
-- **Followers:** 0 👥
-- **Following:** 0 👥
+- **Total Repositories:** 78
+- **Total Stars Earned:** 3 ⭐
+- **Total Forks:** 1 🍴
+- **Followers:** 32 👥
+- **Following:** 39 👥
 - **Public Gists:** 0 📝
-- **Account Age:** 0 years
+- **Account Age:** 7 years (since 2018)
 
 ### 🔥 Contribution Activity
-- **Last Week:** 0 commits
-- **Last Month:** 0 commits
-- **Last 6 Months:** 0 commits
+- **Last Week:** 17 commits
+- **Last Month:** 21 commits
+- **Last 6 Months:** 41 commits
+
+### 💻 Language Distribution (by code volume)
+- Jupyter Notebook: 36.5%
+- Python: 33.0%
+- JavaScript: 17.8%
+- CSS: 5.1%
+- HTML: 4.6%
 
 ---
-*🔄 Statistics are being generated...*
+*📅 Statistics last updated: July 18, 2025*
+
 <!-- REALTIME_STATS:END -->
 
 ## 🏢 Organization Activity
