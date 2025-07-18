@@ -29,6 +29,13 @@
 🔀 Updated pull request in **MrBytes10/MrBytes10** - 7/17/2025
 <!-- GITHUB_ACTIVITY:END -->
 
+<!-- Add this new section to your README.md file -->
+
+## 📊 WakaTime Stats
+<!-- WAKATIME_STATS:START -->
+*Stats are being generated...*
+<!-- WAKATIME_STATS:END -->
+
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
 🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
