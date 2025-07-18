@@ -39,6 +39,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+            # THIS IS THE NEW LINE YOU NEED TO ADD:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           
       # Step 4: Commit and push the changes if the README file was updated.
       - name: Commit and push changes
