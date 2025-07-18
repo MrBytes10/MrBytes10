@@ -16,10 +16,13 @@
 📫 How to reach me: a.m.ndeti@gmail.com | [Portfolio](https://mulutx.co.ke) | [LinkedIn](https://www.linkedin.com/in/augastine-ndeti-290230175)
 <!-- Add this new section to your README.md file -->
 
+<!-- Add this new section to your README.md file -->
+
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-❌ Could not retrieve WakaTime stats.
+*Stats are being generated...*
 <!-- WAKATIME_STATS:END -->
+
 ## 📈 Contribution Summary
 <!-- CONTRIBUTION_SUMMARY:START -->
 📊 **78** repositories | ⭐ **3** stars received | 🍴 **1** forks | 👥 **32** followers | 🔥 **26** commits (last month) | 📈 **7** active repos
