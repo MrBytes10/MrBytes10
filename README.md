@@ -31,16 +31,21 @@
 
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
+🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
+   📅 Last updated: 7/18/2025
 🚀 **[SupportPortal](https://github.com/MrBytes10/SupportPortal)** `HTML` 
-🚀 **[PrimeBankPortal](https://github.com/MrBytes10/PrimeBankPortal)**   - PrimeBankPortal cloned from NCBA
+   📅 Last updated: 7/10/2025
 🚀 **[MyPortfolio-V2withSEO-Public](https://github.com/MrBytes10/MyPortfolio-V2withSEO-Public)** `JavaScript` 
+   📅 Last updated: 7/2/2025
+🚀 **[PrimeBankPortal](https://github.com/MrBytes10/PrimeBankPortal)**  - PrimeBankPortal cloned from NCBA
+   📅 Last updated: 7/2/2025
 🚀 **[Chanku-Global-Investments-V2withSEO](https://github.com/MrBytes10/Chanku-Global-Investments-V2withSEO)** `JavaScript` 
-🚀 **[GeneralSLNs](https://github.com/MrBytes10/GeneralSLNs)** `C#`  - General solutions app in C# and Blazor
+   📅 Last updated: 6/2/2025
 <!-- LATEST_PROJECTS:END -->
 
 ## 📊 Organization Activity
 <!-- ORG_ACTIVITY:START -->
-🏢 No organization memberships found
+🏢 No public organization memberships found
 <!-- ORG_ACTIVITY:END -->
 
 ## 🌐 Socials:
