@@ -8,9 +8,9 @@ const octokit = new Octokit({
 });
 
 const username = process.env.USERNAME || 'MrBytes10';
-
 // Get the WakaTime API key from environment variables
 const wakaApiKey = process.env.WAKATIME_API_KEY;
+
 
 // *** NEW FUNCTION TO GET WAKATIME STATS ***
 async function getWakaTimeStats() {
@@ -36,7 +36,8 @@ async function getWakaTimeStats() {
   }
 }
 
-// This function fetches recent public events. It's working correctly.
+// ... (All your existing GitHub functions: getRecentActivity, getAccurateGitHubStats, etc.)
+// ... (I'm omitting them here for brevity, but they should remain in your file)
 async function getRecentActivity() {
   try {
     const events = await octokit.rest.activity.listPublicEventsForUser({
@@ -62,8 +63,6 @@ async function getRecentActivity() {
     return '❌ Unable to fetch recent activity';
   }
 }
-
-// This is the rewritten, more robust function.
 async function getAccurateGitHubStats() {
   try {
     console.log('📊 Fetching accurate GitHub statistics...');
@@ -86,23 +85,17 @@ async function getAccurateGitHubStats() {
     sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
 
     for (const repo of repos) {
-        // THE FIX: Skip empty repositories to prevent API errors
         if (repo.size === 0) {
-            console.log(`- Skipping empty repository: ${repo.name}`);
             continue;
         }
-
         totalStars += repo.stargazers_count;
         totalForks += repo.forks_count;
 
         try {
-            // Count languages
             const languages = await octokit.rest.repos.listLanguages({ owner: username, repo: repo.name });
             for (const [lang, bytes] of Object.entries(languages.data)) {
                 languageBytes[lang] = (languageBytes[lang] || 0) + bytes;
             }
-
-            // Count commits in the last 6 months
             const commits = await octokit.paginate(octokit.rest.repos.listCommits, {
                 owner: username,
                 repo: repo.name,
@@ -115,7 +108,6 @@ async function getAccurateGitHubStats() {
                 const now = new Date();
                 const oneMonthAgo = new Date().setMonth(now.getMonth() - 1);
                 const oneWeekAgo = new Date().setDate(now.getDate() - 7);
-
                 recentCommits6Months += commits.length;
                 for (const commit of commits) {
                     const commitDate = new Date(commit.commit.author.date);
@@ -135,31 +127,17 @@ async function getAccurateGitHubStats() {
       .map(([lang, bytes]) => `${lang}: ${((bytes / totalBytes) * 100).toFixed(1)}%`);
 
     return {
-      totalRepos: user.public_repos,
-      totalStars,
-      totalForks,
-      followers: user.followers,
-      following: user.following,
-      publicGists: user.public_gists,
-      accountCreated: new Date(user.created_at).getFullYear(),
-      recentCommits6Months,
-      recentCommits1Month,
-      recentCommits1Week,
-      activeReposCount,
-      topLanguagesByBytes,
+      totalRepos: user.public_repos, totalStars, totalForks, followers: user.followers, following: user.following, publicGists: user.public_gists, accountCreated: new Date(user.created_at).getFullYear(), recentCommits6Months, recentCommits1Month, recentCommits1Week, activeReposCount, topLanguagesByBytes,
     };
   } catch (error) {
     console.error(`❌ Major error in getAccurateGitHubStats: ${error.message}`);
-    return null; // Ensure it returns null on major failure
+    return null;
   }
 }
-
 async function getLatestProjects() {
     try {
       const { data: repos } = await octokit.rest.repos.listForUser({
-        username: username,
-        sort: 'pushed',
-        per_page: 5,
+        username: username, sort: 'pushed', per_page: 5,
       });
       return repos.map(repo => 
         `🚀 **[${repo.name}](${repo.html_url})** ${repo.language ? `\`${repo.language}\`` : ''} ${repo.description ? `- ${repo.description}` : ''}\n   📅 Last updated: ${new Date(repo.pushed_at).toLocaleDateString('en-US')}`
@@ -170,22 +148,21 @@ async function getLatestProjects() {
     }
 }
 
+
+// *** MAIN FUNCTION: UPDATED TO INCLUDE WAKATIME ***
 async function updateReadme() {
   console.log('🚀 Starting enhanced README update...');
   let readme = fs.readFileSync('README.md', 'utf8');
 
-   // Fetch all data in parallel for speed
+  // Fetch all data in parallel for speed
   const [stats, activity, latestProjects, wakaStats] = await Promise.all([
     getAccurateGitHubStats(),
     getRecentActivity(),
     getLatestProjects(),
     getWakaTimeStats() // Fetch WakaTime data
   ]);
-
-  const stats = await getAccurateGitHubStats();
   
-  // This is the critical block that was being skipped.
- // Update GitHub Stats sections
+  // Update GitHub Stats sections
   if (stats) {
     console.log('✅ GitHub stats fetched. Updating sections...');
     const contributionSummary = `📊 **${stats.totalRepos}** repositories | ⭐ **${stats.totalStars}** stars received | 🍴 **${stats.totalForks}** forks | 👥 **${stats.followers}** followers | 🔥 **${stats.recentCommits1Month}** commits (last month) | 📈 **${stats.activeReposCount}** active repos`;
