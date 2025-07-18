@@ -14,7 +14,18 @@
 ⚡ Fun fact: I enjoy solving complex problems through strategic games like checkers!
 
 📫 How to reach me: a.m.ndeti@gmail.com | [Portfolio](https://mulutx.co.ke) | [LinkedIn](https://www.linkedin.com/in/augastine-ndeti-290230175)
+<!-- Add this new section to your README.md file -->
 
+## 📊 WakaTime Stats
+<!-- WAKATIME_STATS:START -->
+**💻 Coding Activity (Last 7 Days)**
+
+- C#: 19 hrs 28 mins (73.62%)
+- Binary: 4 hrs 13 mins (15.97%)
+- Razor: 1 hr 30 mins (5.72%)
+- Other: 32 mins (2.07%)
+- JavaScript: 14 mins (0.89%)
+<!-- WAKATIME_STATS:END -->
 ## 📈 Contribution Summary
 <!-- CONTRIBUTION_SUMMARY:START -->
 📊 **78** repositories | ⭐ **3** stars received | 🍴 **1** forks | 👥 **32** followers | 🔥 **25** commits (last month) | 📈 **7** active repos
@@ -28,19 +39,6 @@
 🔥 Pushed 5 commits to **MrBytes10/MrBytes10** - 7/17/2025
 🔀 Updated pull request in **MrBytes10/MrBytes10** - 7/17/2025
 <!-- GITHUB_ACTIVITY:END -->
-
-<!-- Add this new section to your README.md file -->
-
-## 📊 WakaTime Stats
-<!-- WAKATIME_STATS:START -->
-**💻 Coding Activity (Last 7 Days)**
-
-- C#: 19 hrs 28 mins (73.62%)
-- Binary: 4 hrs 13 mins (15.97%)
-- Razor: 1 hr 30 mins (5.72%)
-- Other: 32 mins (2.07%)
-- JavaScript: 14 mins (0.89%)
-<!-- WAKATIME_STATS:END -->
 
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
