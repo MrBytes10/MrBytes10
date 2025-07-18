@@ -5,11 +5,11 @@
 
 💻 Currently working with C#, .NET Core (backend), and Blazor (frontend)
 
-🔭 I'm enhancing my full-stack development skills
+🔭 I'm enhancing my full-stack development skills <br>
 🌐 Passionate about , Blockchain, Insurance Software, General Systems development, APIs Development, web3, and all things Tech & Business  <br>
-🌱 Expertise in C#, ASP.NETCore, Python, Django, JavaScript, React.js,Next.js and Blazor Server Apps.
-👯 I'm looking to collaborate on innovative web, general systems and blockchain projects
-💡 Ask me about APIs development, web development, data science, or tech trends
+🌱 Expertise in C#, ASP.NETCore, Python, Django, JavaScript, React.js,Next.js and Blazor Server Apps. <br>
+👯 I'm looking to collaborate on innovative web, general systems and blockchain projects .<br>
+💡 Ask me about APIs development, web development, data science, or tech trends <br>
 
 ⚡ Fun fact: I enjoy solving complex problems through strategic games like checkers!
 
