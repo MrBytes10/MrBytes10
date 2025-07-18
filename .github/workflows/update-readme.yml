@@ -1,4 +1,6 @@
-name: Update README with GitHub Activity
+# File: .github/workflows/update-readme.yml
+
+name: Update README with Enhanced GitHub Activity
 
 on:
   schedule:
@@ -10,31 +12,43 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      # Need write permission to push updated README to the repo
+      contents: write
+      
     steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
+          cache: 'npm'
           
-      - name: Install dependencies
+      - name: Create package.json and install dependencies
         run: |
-          echo '{"type": "module"}' > package.json
-          npm install @octokit/rest
-          
-      - name: Update README with activity
+          echo '{ "type": "module", "dependencies": { "@octokit/rest": "^20.0.0" } }' > package.json
+          npm install
+        
+      - name: Update README with enhanced activity
         run: node update-readme.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: MrBytes10
+          USERNAME: ${{ github.repository_owner }}
           
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git diff --staged --quiet || git commit -m "📊 Update README with latest activity"
-          git push
+          # Only commit and push if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "📊 chore: Update README with enhanced GitHub statistics"
+            git push
+          else
+            echo "No changes to README.md. Skipping commit."
+          fi
+        
+      - name: Summary
+        run: echo "✅ README update process completed."
