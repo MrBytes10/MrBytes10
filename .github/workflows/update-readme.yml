@@ -13,45 +13,39 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     permissions:
-      # Need write permission to push the updated README to the repo
+      # This permission is required to push the updated README back to the repository
       contents: write
       
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 1: Create the package.json file first.
-      - name: Create package.json
-        # THIS IS THE CORRECTED STEP:
-        # Using a literal block scalar `|` to handle special characters correctly.
-        run: |
-          echo '{ "type": "module", "dependencies": { "@octokit/rest": "^20.0.0" } }' > package.json
-        
-      # Step 2: Setup Node.js and cache dependencies
-      - name: Setup Node.js and cache dependencies
+      # Step 1: Setup Node.js environment. 
+      # Caching is removed to prevent the error, as it's not needed for this simple setup.
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
 
-      # Step 3: Install dependencies
+      # Step 2: Create package.json and install the single dependency.
       - name: Install dependencies
-        run: npm install
+        run: |
+          echo '{ "type": "module", "dependencies": { "@octokit/rest": "^20.0.0" } }' > package.json
+          npm install
 
-      # Step 4: Run the script to update the README.
+      # Step 3: Run the script to update the README file.
       - name: Update README with enhanced activity
         run: node update-readme.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           
-      # Step 5: Commit and push the changes back to the repository.
+      # Step 4: Commit and push the changes if the README file was updated.
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          # Only commit and push if there are actual changes
           if ! git diff --staged --quiet; then
             git commit -m "📊 chore: Update README with enhanced GitHub statistics"
             git push
