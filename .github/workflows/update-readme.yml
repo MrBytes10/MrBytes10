@@ -13,36 +13,44 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     permissions:
-      # Need write permission to push updated README to the repo
+      # Need write permission to push the updated README to the repo
       contents: write
       
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      # Step 1: Create the package.json file first.
+      # This allows the next step to know what to cache.
+      - name: Create package.json
+        run: echo '{ "type": "module", "dependencies": { "@octokit/rest": "^20.0.0" } }' > package.json
+        
+      # Step 2: Setup Node.js. It will now find package.json and configure the cache.
+      - name: Setup Node.js and cache dependencies
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
-          
-      - name: Create package.json and install dependencies
-        run: |
-          echo '{ "type": "module", "dependencies": { "@octokit/rest": "^20.0.0" } }' > package.json
-          npm install
-        
+
+      # Step 3: Install dependencies. This creates package-lock.json and node_modules.
+      # The cache will be used if available, and saved at the end of the job.
+      - name: Install dependencies
+        run: npm install
+
+      # Step 4: Run the script to update the README.
       - name: Update README with enhanced activity
         run: node update-readme.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           
+      # Step 5: Commit and push the changes back to the repository.
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          # Only commit and push if there are changes
+          # Only commit and push if there are actual changes
           if ! git diff --staged --quiet; then
             git commit -m "📊 chore: Update README with enhanced GitHub statistics"
             git push
