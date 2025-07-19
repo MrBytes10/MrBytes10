@@ -22,11 +22,11 @@
 <!-- WAKATIME_STATS:START -->
 **💻 Coding Activity (Last 7 Days)**
 
-- C#: 19 hrs 28 mins (73.62%)
-- Binary: 4 hrs 13 mins (15.97%)
-- Razor: 1 hr 30 mins (5.72%)
-- Other: 32 mins (2.07%)
-- JavaScript: 14 mins (0.89%)
+- C#: 21 hrs 38 mins (72.58%)
+- Binary: 4 hrs 57 mins (16.65%)
+- Razor: 1 hr 20 mins (4.52%)
+- Other: 48 mins (2.7%)
+- JSON: 17 mins (0.96%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
@@ -46,7 +46,7 @@
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
 🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
-   📅 Last updated: 7/18/2025
+   📅 Last updated: 7/19/2025
 🚀 **[SupportPortal](https://github.com/MrBytes10/SupportPortal)** `HTML` 
    📅 Last updated: 7/10/2025
 🚀 **[MyPortfolio-V2withSEO-Public](https://github.com/MrBytes10/MyPortfolio-V2withSEO-Public)** `JavaScript` 
