@@ -20,13 +20,7 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**💻 Coding Activity (Last 7 Days)**
-
-- C#: 21 hrs 38 mins (72.58%)
-- Binary: 4 hrs 57 mins (16.65%)
-- Razor: 1 hr 20 mins (4.52%)
-- Other: 48 mins (2.7%)
-- JSON: 17 mins (0.96%)
+❌ Could not retrieve WakaTime stats.
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
