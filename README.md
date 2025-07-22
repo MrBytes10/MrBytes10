@@ -22,11 +22,11 @@
 <!-- WAKATIME_STATS:START -->
 **💻 Coding Activity (Last 7 Days)**
 
-- C#: 23 hrs 36 mins (73.17%)
-- Binary: 5 hrs 20 mins (16.54%)
-- Razor: 1 hr 20 mins (4.17%)
-- Other: 50 mins (2.59%)
-- JSON: 17 mins (0.89%)
+- C#: 23 hrs 54 mins (71.08%)
+- Binary: 4 hrs 47 mins (14.23%)
+- Razor: 1 hr 20 mins (4%)
+- JSON: 1 hr 15 mins (3.75%)
+- Other: 51 mins (2.55%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
@@ -36,18 +36,18 @@
 
 ## 🚀 Recent Activity
 <!-- GITHUB_ACTIVITY:START -->
+🔥 Pushed 1 commit to **MrBytes10/TaskManagementFrontend** - 7/21/2025
 📝 Other activity in **MrBytes10/TaskManagementFrontend** - 7/21/2025
 📝 Other activity in **MrBytes10/TaskManagementFrontend** - 7/21/2025
 📝 Other activity in **MrBytes10/TaskManagementBackend** - 7/21/2025
 📝 Other activity in **MrBytes10/TaskManagementBackend** - 7/21/2025
-🔥 Pushed 1 commit to **MrBytes10/MrBytes10** - 7/18/2025
 <!-- GITHUB_ACTIVITY:END -->
 
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
-🚀 **[TaskManagementFrontend](https://github.com/MrBytes10/TaskManagementFrontend)** `TypeScript` 
-   📅 Last updated: 7/21/2025
 🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
+   📅 Last updated: 7/22/2025
+🚀 **[TaskManagementFrontend](https://github.com/MrBytes10/TaskManagementFrontend)** `TypeScript` 
    📅 Last updated: 7/21/2025
 🚀 **[TaskManagementBackend](https://github.com/MrBytes10/TaskManagementBackend)** `C#` 
    📅 Last updated: 7/21/2025
