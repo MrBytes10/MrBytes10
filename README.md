@@ -36,18 +36,18 @@
 
 ## 🚀 Recent Activity
 <!-- GITHUB_ACTIVITY:START -->
+🔥 Pushed 1 commit to **MrBytes10/Java_SpringBoot_TaskManagementBackend** - 7/23/2025
+📝 Other activity in **MrBytes10/Java_SpringBoot_TaskManagementBackend** - 7/22/2025
+📝 Other activity in **MrBytes10/Java_SpringBoot_TaskManagementBackend-** - 7/22/2025
 🔥 Pushed 1 commit to **MrBytes10/TaskManagementFrontend** - 7/21/2025
 📝 Other activity in **MrBytes10/TaskManagementFrontend** - 7/21/2025
-📝 Other activity in **MrBytes10/TaskManagementFrontend** - 7/21/2025
-📝 Other activity in **MrBytes10/TaskManagementBackend** - 7/21/2025
-📝 Other activity in **MrBytes10/TaskManagementBackend** - 7/21/2025
 <!-- GITHUB_ACTIVITY:END -->
 
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
-🚀 **[Java_SpringBoot_TaskManagementBackend](https://github.com/MrBytes10/Java_SpringBoot_TaskManagementBackend)** `Java` 
-   📅 Last updated: 7/23/2025
 🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
+   📅 Last updated: 7/23/2025
+🚀 **[Java_SpringBoot_TaskManagementBackend](https://github.com/MrBytes10/Java_SpringBoot_TaskManagementBackend)** `Java` 
    📅 Last updated: 7/23/2025
 🚀 **[TaskManagementFrontend](https://github.com/MrBytes10/TaskManagementFrontend)** `TypeScript` 
    📅 Last updated: 7/21/2025
