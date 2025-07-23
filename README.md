@@ -20,12 +20,18 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-❌ Could not retrieve WakaTime stats.
+**💻 Coding Activity (Last 7 Days)**
+
+- C#: 18 hrs 47 mins (59.04%)
+- Binary: 4 hrs 37 mins (14.52%)
+- Razor: 2 hrs 19 mins (7.28%)
+- Java: 1 hr 34 mins (4.95%)
+- JSON: 1 hr 20 mins (4.23%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
 <!-- CONTRIBUTION_SUMMARY:START -->
-📊 **81** repositories | ⭐ **3** stars received | 🍴 **1** forks | 👥 **32** followers | 🔥 **35** commits (last month) | 📈 **10** active repos
+📊 **81** repositories | ⭐ **3** stars received | 🍴 **1** forks | 👥 **32** followers | 🔥 **38** commits (last month) | 📈 **10** active repos
 <!-- CONTRIBUTION_SUMMARY:END -->
 
 ## 🚀 Recent Activity
@@ -39,9 +45,9 @@
 
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
-🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
-   📅 Last updated: 7/23/2025
 🚀 **[Java_SpringBoot_TaskManagementBackend](https://github.com/MrBytes10/Java_SpringBoot_TaskManagementBackend)** `Java` 
+   📅 Last updated: 7/23/2025
+🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
    📅 Last updated: 7/23/2025
 🚀 **[TaskManagementFrontend](https://github.com/MrBytes10/TaskManagementFrontend)** `TypeScript` 
    📅 Last updated: 7/21/2025
@@ -63,9 +69,9 @@
 - **Public Gists:** 0 📝
 - **Account Age:** 7 years (since 2018)
 ### 🔥 Contribution Activity
-- **Last Week:** 31 commits
-- **Last Month:** 35 commits
-- **Last 6 Months:** 55 commits
+- **Last Week:** 34 commits
+- **Last Month:** 38 commits
+- **Last 6 Months:** 58 commits
 ### 💻 Language Distribution (by code volume)
 - Jupyter Notebook: 35.9%
 - Python: 32.4%
