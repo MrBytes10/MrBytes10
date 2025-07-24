@@ -22,11 +22,11 @@
 <!-- WAKATIME_STATS:START -->
 **💻 Coding Activity (Last 7 Days)**
 
-- C#: 18 hrs 47 mins (59.04%)
-- Binary: 4 hrs 37 mins (14.52%)
-- Razor: 2 hrs 19 mins (7.28%)
-- Java: 1 hr 34 mins (4.95%)
-- JSON: 1 hr 20 mins (4.23%)
+- C#: 16 hrs 2 mins (44.06%)
+- Binary: 5 hrs 19 mins (14.61%)
+- Java: 3 hrs 55 mins (10.8%)
+- Razor: 2 hrs 53 mins (7.95%)
+- YAML: 1 hr 45 mins (4.81%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
@@ -45,11 +45,11 @@
 
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
+🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
+   📅 Last updated: 7/24/2025
 🚀 **[Java_SpringBoot_TaskManagementBackend](https://github.com/MrBytes10/Java_SpringBoot_TaskManagementBackend)** `Java` 
    📅 Last updated: 7/23/2025
 🚀 **[TaskManagementFrontend](https://github.com/MrBytes10/TaskManagementFrontend)** `TypeScript` 
-   📅 Last updated: 7/23/2025
-🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
    📅 Last updated: 7/23/2025
 🚀 **[TaskManagementBackend](https://github.com/MrBytes10/TaskManagementBackend)** `C#` 
    📅 Last updated: 7/21/2025
