@@ -11,8 +11,7 @@ const username = process.env.USERNAME || 'MrBytes10';
 // Get the WakaTime API key from environment variables
 const wakaApiKey = process.env.WAKATIME_API_KEY;
 
-
-// *** NEW FUNCTION TO GET WAKATIME STATS ***
+// *** ENHANCED WAKATIME STATS FUNCTION ***
 async function getWakaTimeStats() {
   if (!wakaApiKey) {
     console.warn('WakaTime API Key not found. Skipping WakaTime stats.');
@@ -24,20 +23,23 @@ async function getWakaTimeStats() {
         throw new Error(`WakaTime API response not OK: ${response.statusText}`);
     }
     const stats = await response.json();
+    
+    // Extract total time and format it properly
+    const totalTime = stats.data.human_readable_total || '0 hrs 0 mins';
+    
+    // Get top languages
     const topLanguages = stats.data.languages
       .slice(0, 5) // Get top 5 languages
-      .map(lang => `- ${lang.name}: ${lang.text} (${lang.percent}%)`)
+      .map(lang => `- **${lang.name}**: ${lang.text} (${lang.percent}%)`)
       .join('\n');
 
-    return `**💻 Coding Activity (Last 7 Days)**\n\n${topLanguages}`;
+    return `**📊 ${totalTime} over the Last 7 Days**\n\n**⏱️ Time spent on each Language:**\n${topLanguages}`;
   } catch (error) {
     console.error(`Error fetching WakaTime stats: ${error.message}`);
     return '❌ Could not retrieve WakaTime stats.';
   }
 }
 
-// ... (All your existing GitHub functions: getRecentActivity, getAccurateGitHubStats, etc.)
-// ... (I'm omitting them here for brevity, but they should remain in your file)
 async function getRecentActivity() {
   try {
     const events = await octokit.rest.activity.listPublicEventsForUser({
@@ -63,10 +65,14 @@ async function getRecentActivity() {
     return '❌ Unable to fetch recent activity';
   }
 }
+
+// *** ENHANCED FUNCTION WITH BETTER LANGUAGE DETECTION ***
 async function getAccurateGitHubStats() {
   try {
     console.log('📊 Fetching accurate GitHub statistics...');
     const { data: user } = await octokit.rest.users.getByUsername({ username });
+    
+    // Fetch ALL repositories (not just public ones to get better language data)
     const repos = await octokit.paginate(octokit.rest.repos.listForUser, {
         username: username,
         type: 'owner',
@@ -84,63 +90,95 @@ async function getAccurateGitHubStats() {
     const sixMonthsAgo = new Date();
     sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
 
+    console.log(`🔍 Processing ${repos.length} repositories for comprehensive language analysis...`);
+
     for (const repo of repos) {
-        if (repo.size === 0) {
-            continue;
-        }
+        // Skip empty repos but include all others for language detection
         totalStars += repo.stargazers_count;
         totalForks += repo.forks_count;
 
         try {
-            const languages = await octokit.rest.repos.listLanguages({ owner: username, repo: repo.name });
+            // Get languages for each repository
+            const languages = await octokit.rest.repos.listLanguages({ 
+              owner: username, 
+              repo: repo.name 
+            });
+            
+            // Add all languages found in this repo
             for (const [lang, bytes] of Object.entries(languages.data)) {
                 languageBytes[lang] = (languageBytes[lang] || 0) + bytes;
+                console.log(`  📝 Found ${lang} in ${repo.name}: ${bytes} bytes`);
             }
-            const commits = await octokit.paginate(octokit.rest.repos.listCommits, {
-                owner: username,
-                repo: repo.name,
-                author: username,
-                since: sixMonthsAgo.toISOString(),
-            });
 
-            if (commits.length > 0) {
-                activeReposCount++;
-                const now = new Date();
-                const oneMonthAgo = new Date().setMonth(now.getMonth() - 1);
-                const oneWeekAgo = new Date().setDate(now.getDate() - 7);
-                recentCommits6Months += commits.length;
-                for (const commit of commits) {
-                    const commitDate = new Date(commit.commit.author.date);
-                    if (commitDate > oneMonthAgo) recentCommits1Month++;
-                    if (commitDate > oneWeekAgo) recentCommits1Week++;
-                }
+            // Only process commits for repos with content
+            if (repo.size > 0) {
+              const commits = await octokit.paginate(octokit.rest.repos.listCommits, {
+                  owner: username,
+                  repo: repo.name,
+                  author: username,
+                  since: sixMonthsAgo.toISOString(),
+              });
+
+              if (commits.length > 0) {
+                  activeReposCount++;
+                  const now = new Date();
+                  const oneMonthAgo = new Date().setMonth(now.getMonth() - 1);
+                  const oneWeekAgo = new Date().setDate(now.getDate() - 7);
+                  recentCommits6Months += commits.length;
+                  for (const commit of commits) {
+                      const commitDate = new Date(commit.commit.author.date);
+                      if (commitDate > oneMonthAgo) recentCommits1Month++;
+                      if (commitDate > oneWeekAgo) recentCommits1Week++;
+                  }
+              }
             }
         } catch (error) {
             console.log(`- Could not process repo ${repo.name}: ${error.message}. Skipping.`);
         }
     }
 
+    console.log('📊 Language distribution found:');
+    Object.entries(languageBytes).forEach(([lang, bytes]) => {
+      console.log(`  ${lang}: ${bytes} bytes`);
+    });
+
     const totalBytes = Object.values(languageBytes).reduce((sum, bytes) => sum + bytes, 0);
     const topLanguagesByBytes = Object.entries(languageBytes)
       .sort(([,a], [,b]) => b - a)
-      .slice(0, 5)
+      .slice(0, 8) // Show top 8 languages to catch more variety
       .map(([lang, bytes]) => `${lang}: ${((bytes / totalBytes) * 100).toFixed(1)}%`);
 
+    console.log('✅ Top languages by bytes:', topLanguagesByBytes);
+
     return {
-      totalRepos: user.public_repos, totalStars, totalForks, followers: user.followers, following: user.following, publicGists: user.public_gists, accountCreated: new Date(user.created_at).getFullYear(), recentCommits6Months, recentCommits1Month, recentCommits1Week, activeReposCount, topLanguagesByBytes,
+      totalRepos: user.public_repos, 
+      totalStars, 
+      totalForks, 
+      followers: user.followers, 
+      following: user.following, 
+      publicGists: user.public_gists, 
+      accountCreated: new Date(user.created_at).getFullYear(), 
+      recentCommits6Months, 
+      recentCommits1Month, 
+      recentCommits1Week, 
+      activeReposCount, 
+      topLanguagesByBytes,
     };
   } catch (error) {
     console.error(`❌ Major error in getAccurateGitHubStats: ${error.message}`);
     return null;
   }
 }
+
 async function getLatestProjects() {
     try {
       const { data: repos } = await octokit.rest.repos.listForUser({
-        username: username, sort: 'pushed', per_page: 5,
+        username: username, 
+        sort: 'pushed', 
+        per_page: 5,
       });
       return repos.map(repo => 
-        `🚀 **[${repo.name}](${repo.html_url})** ${repo.language ? `\`${repo.language}\`` : ''} ${repo.description ? `- ${repo.description}` : ''}\n   📅 Last updated: ${new Date(repo.pushed_at).toLocaleDateString('en-US')}`
+        `🚀 **[${repo.name}](${repo.html_url})** ${repo.language ? `\`${repo.language}\`` : ''} \n   📅 Last updated: ${new Date(repo.pushed_at).toLocaleDateString('en-US')}`
       ).join('\n');
     } catch (error) {
       console.error(`Error fetching latest projects: ${error.message}`);
@@ -148,8 +186,7 @@ async function getLatestProjects() {
     }
 }
 
-
-// *** MAIN FUNCTION: UPDATED TO INCLUDE WAKATIME ***
+// *** MAIN FUNCTION: UPDATED TO INCLUDE ENHANCED WAKATIME ***
 async function updateReadme() {
   console.log('🚀 Starting enhanced README update...');
   let readme = fs.readFileSync('README.md', 'utf8');
@@ -159,7 +196,7 @@ async function updateReadme() {
     getAccurateGitHubStats(),
     getRecentActivity(),
     getLatestProjects(),
-    getWakaTimeStats() // Fetch WakaTime data
+    getWakaTimeStats() // Fetch enhanced WakaTime data
   ]);
   
   // Update GitHub Stats sections
@@ -196,7 +233,7 @@ ${stats.topLanguagesByBytes.map(lang => `- ${lang}`).join('\n')}
   readme = readme.replace(/<!-- GITHUB_ACTIVITY:START -->[\s\S]*?<!-- GITHUB_ACTIVITY:END -->/, `<!-- GITHUB_ACTIVITY:START -->\n${activity}\n<!-- GITHUB_ACTIVITY:END -->`);
   readme = readme.replace(/<!-- LATEST_PROJECTS:START -->[\s\S]*?<!-- LATEST_PROJECTS:END -->/, `<!-- LATEST_PROJECTS:START -->\n${latestProjects}\n<!-- LATEST_PROJECTS:END -->`);
   
-  // Update WakaTime section
+  // Update enhanced WakaTime section
   readme = readme.replace(/<!-- WAKATIME_STATS:START -->[\s\S]*?<!-- WAKATIME_STATS:END -->/, `<!-- WAKATIME_STATS:START -->\n${wakaStats}\n<!-- WAKATIME_STATS:END -->`);
 
   fs.writeFileSync('README.md', readme);
