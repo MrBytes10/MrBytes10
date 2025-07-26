@@ -20,14 +20,7 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 32 hrs 4 mins over the Last 7 Days**
-
-**⏱️ Time spent on each Language:**
-- **C#**: 14 hrs 37 mins (45.07%)
-- **Binary**: 3 hrs 59 mins (12.32%)
-- **Java**: 3 hrs 55 mins (12.12%)
-- **Razor**: 1 hr 55 mins (5.92%)
-- **YAML**: 1 hr 45 mins (5.4%)
+❌ Could not retrieve WakaTime stats.
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
@@ -37,11 +30,11 @@
 
 ## 🚀 Recent Activity
 <!-- GITHUB_ACTIVITY:START -->
+🔥 Pushed 1 commit to **MrBytes10/MrBytes10** - 7/25/2025
 🔥 Pushed 1 commit to **MrBytes10/Java_SpringBoot_TaskManagementBackend** - 7/23/2025
 🔥 Pushed 1 commit to **MrBytes10/TaskManagementFrontend** - 7/23/2025
 🔥 Pushed 1 commit to **MrBytes10/TaskManagementFrontend** - 7/23/2025
 🔥 Pushed 1 commit to **MrBytes10/Java_SpringBoot_TaskManagementBackend** - 7/23/2025
-📝 Other activity in **MrBytes10/Java_SpringBoot_TaskManagementBackend** - 7/22/2025
 <!-- GITHUB_ACTIVITY:END -->
 
 ## 🔥 Latest Projects
@@ -70,7 +63,7 @@
 - **Public Gists:** 0 📝
 - **Account Age:** 7 years (since 2018)
 ### 🔥 Contribution Activity
-- **Last Week:** 28 commits
+- **Last Week:** 12 commits
 - **Last Month:** 42 commits
 - **Last 6 Months:** 62 commits
 ### 💻 Language Distribution (by code volume)
@@ -83,7 +76,7 @@
 - SCSS: 1.5%
 - TypeScript: 1.1%
 ---
-*📅 Statistics last updated: July 25, 2025*
+*📅 Statistics last updated: July 26, 2025*
 <!-- REALTIME_STATS:END -->
 
 ## 🏢 Organization Activity
