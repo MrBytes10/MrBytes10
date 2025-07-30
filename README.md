@@ -20,14 +20,7 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 20 hrs 21 mins over the Last 7 Days**
-
-**⏱️ Time spent on each Language:**
-- **C#**: 9 hrs 51 mins (48.24%)
-- **Binary**: 2 hrs 52 mins (14.08%)
-- **Java**: 2 hrs 21 mins (11.53%)
-- **YAML**: 1 hr 17 mins (6.32%)
-- **TypeScript**: 1 hr 12 mins (5.95%)
+❌ Could not retrieve WakaTime stats.
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
@@ -70,7 +63,7 @@
 - **Public Gists:** 0 📝
 - **Account Age:** 7 years (since 2018)
 ### 🔥 Contribution Activity
-- **Last Week:** 9 commits
+- **Last Week:** 6 commits
 - **Last Month:** 42 commits
 - **Last 6 Months:** 60 commits
 ### 💻 Language Distribution (by code volume)
