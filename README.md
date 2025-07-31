@@ -20,14 +20,14 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 20 hrs 21 mins over the Last 7 Days**
+**📊 13 hrs 14 mins over the Last 7 Days**
 
 **⏱️ Time spent on each Language:**
-- **C#**: 9 hrs 51 mins (48.24%)
-- **Binary**: 2 hrs 52 mins (14.08%)
-- **Java**: 2 hrs 21 mins (11.53%)
-- **YAML**: 1 hr 17 mins (6.32%)
-- **TypeScript**: 1 hr 12 mins (5.95%)
+- **C#**: 10 hrs 31 mins (79.08%)
+- **Binary**: 2 hrs 3 mins (15.41%)
+- **JSON**: 30 mins (3.76%)
+- **Markdown**: 9 mins (1.21%)
+- **Other**: 4 mins (0.54%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
@@ -47,7 +47,7 @@
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
 🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
-   📅 Last updated: 7/30/2025
+   📅 Last updated: 7/31/2025
 🚀 **[StockAPIs-Version1](https://github.com/MrBytes10/StockAPIs-Version1)** `C#` 
    📅 Last updated: 7/28/2025
 🚀 **[Java_SpringBoot_TaskManagementBackend](https://github.com/MrBytes10/Java_SpringBoot_TaskManagementBackend)** `Java` 
