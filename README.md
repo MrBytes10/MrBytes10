@@ -20,41 +20,41 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 21 hrs 34 mins over the Last 7 Days**
+**📊 24 hrs 45 mins over the Last 7 Days**
 
 **⏱️ Time spent on each Language:**
-- **C#**: 13 hrs 33 mins (57.36%)
-- **Binary**: 4 hrs 33 mins (19.27%)
-- **Other**: 2 hrs 4 mins (8.75%)
-- **JSON**: 1 hr 25 mins (6.04%)
-- **Razor**: 1 hr 22 mins (5.79%)
+- **C#**: 14 hrs 31 mins (54.33%)
+- **Binary**: 5 hrs 3 mins (18.91%)
+- **Other**: 1 hr 59 mins (7.43%)
+- **Razor**: 1 hr 56 mins (7.28%)
+- **CSHTML**: 1 hr 24 mins (5.24%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
 <!-- CONTRIBUTION_SUMMARY:START -->
-📊 **82** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **31** followers | 🔥 **17** commits (last month) | 📈 **11** active repos
+📊 **83** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **31** followers | 🔥 **18** commits (last month) | 📈 **12** active repos
 <!-- CONTRIBUTION_SUMMARY:END -->
 
 ## 🚀 Recent Activity
 <!-- GITHUB_ACTIVITY:START -->
+📝 Other activity in **MrBytes10/StockAPIs-Version2** - 8/21/2025
 🔥 Pushed 1 commit to **MrBytes10/MyPortfolio-V2withSEO-Public** - 8/3/2025
 🔥 Pushed 1 commit to **MrBytes10/MyPortfolio-V2withSEO-Public** - 8/3/2025
 🔥 Pushed 1 commit to **MrBytes10/MyPortfolio-V2withSEO-Public** - 8/3/2025
 🔥 Pushed 1 commit to **MrBytes10/StockAPIs-Version1** - 7/28/2025
-📝 Other activity in **MrBytes10/StockAPIs-Version1** - 7/28/2025
 <!-- GITHUB_ACTIVITY:END -->
 
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
+🚀 **[StockAPIs-Version2](https://github.com/MrBytes10/StockAPIs-Version2)** `C#` 
+   📅 Last updated: 8/21/2025
 🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
-   📅 Last updated: 8/20/2025
+   📅 Last updated: 8/21/2025
 🚀 **[MyPortfolio-V2withSEO-Public](https://github.com/MrBytes10/MyPortfolio-V2withSEO-Public)** `JavaScript` 
    📅 Last updated: 8/3/2025
 🚀 **[StockAPIs-Version1](https://github.com/MrBytes10/StockAPIs-Version1)** `C#` 
    📅 Last updated: 7/28/2025
 🚀 **[Java_SpringBoot_TaskManagementBackend](https://github.com/MrBytes10/Java_SpringBoot_TaskManagementBackend)** `Java` 
-   📅 Last updated: 7/23/2025
-🚀 **[TaskManagementFrontend](https://github.com/MrBytes10/TaskManagementFrontend)** `TypeScript` 
    📅 Last updated: 7/23/2025
 <!-- LATEST_PROJECTS:END -->
 
@@ -62,7 +62,7 @@
 
 ## 📊 Real-Time GitHub Statistics
 ### 🎯 Profile Overview
-- **Total Repositories:** 82
+- **Total Repositories:** 83
 - **Total Stars Earned:** 5 ⭐
 - **Total Forks:** 1 🍴
 - **Followers:** 31 👥
@@ -70,16 +70,16 @@
 - **Public Gists:** 0 📝
 - **Account Age:** 7 years (since 2018)
 ### 🔥 Contribution Activity
-- **Last Week:** 0 commits
-- **Last Month:** 17 commits
-- **Last 6 Months:** 63 commits
+- **Last Week:** 1 commits
+- **Last Month:** 18 commits
+- **Last 6 Months:** 64 commits
 ### 💻 Language Distribution (by code volume)
-- Jupyter Notebook: 35.8%
-- Python: 32.4%
+- Jupyter Notebook: 35.6%
+- Python: 32.2%
 - JavaScript: 17.4%
 - CSS: 5.0%
 - HTML: 4.5%
-- C#: 1.8%
+- C#: 2.2%
 - SCSS: 1.5%
 - TypeScript: 1.1%
 ---
