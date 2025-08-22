@@ -20,19 +20,19 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 24 hrs 45 mins over the Last 7 Days**
+**📊 22 hrs 42 mins over the Last 7 Days**
 
 **⏱️ Time spent on each Language:**
-- **C#**: 14 hrs 31 mins (54.33%)
-- **Binary**: 5 hrs 3 mins (18.91%)
-- **Other**: 1 hr 59 mins (7.43%)
-- **Razor**: 1 hr 56 mins (7.28%)
-- **CSHTML**: 1 hr 24 mins (5.24%)
+- **C#**: 13 hrs (52.9%)
+- **Binary**: 4 hrs 29 mins (18.25%)
+- **Razor**: 2 hrs 34 mins (10.49%)
+- **Other**: 1 hr 53 mins (7.66%)
+- **CSHTML**: 1 hr 17 mins (5.26%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
 <!-- CONTRIBUTION_SUMMARY:START -->
-📊 **83** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **31** followers | 🔥 **15** commits (last month) | 📈 **12** active repos
+📊 **83** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **31** followers | 🔥 **17** commits (last month) | 📈 **12** active repos
 <!-- CONTRIBUTION_SUMMARY:END -->
 
 ## 🚀 Recent Activity
@@ -46,10 +46,10 @@
 
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
-🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
-   📅 Last updated: 8/21/2025
 🚀 **[StockAPIs-Version2](https://github.com/MrBytes10/StockAPIs-Version2)** `C#` 
-   📅 Last updated: 8/21/2025
+   📅 Last updated: 8/22/2025
+🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
+   📅 Last updated: 8/22/2025
 🚀 **[MyPortfolio-V2withSEO-Public](https://github.com/MrBytes10/MyPortfolio-V2withSEO-Public)** `JavaScript` 
    📅 Last updated: 8/3/2025
 🚀 **[StockAPIs-Version1](https://github.com/MrBytes10/StockAPIs-Version1)** `C#` 
@@ -70,9 +70,9 @@
 - **Public Gists:** 0 📝
 - **Account Age:** 7 years (since 2018)
 ### 🔥 Contribution Activity
-- **Last Week:** 1 commits
-- **Last Month:** 15 commits
-- **Last 6 Months:** 64 commits
+- **Last Week:** 3 commits
+- **Last Month:** 17 commits
+- **Last 6 Months:** 66 commits
 ### 💻 Language Distribution (by code volume)
 - Jupyter Notebook: 35.6%
 - Python: 32.2%
