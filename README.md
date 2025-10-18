@@ -20,14 +20,14 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 24 hrs 19 mins over the Last 7 Days**
+**📊 29 hrs 54 mins over the Last 7 Days**
 
 **⏱️ Time spent on each Language:**
-- **C#**: 14 hrs 6 mins (57%)
-- **Binary**: 7 hrs 3 mins (28.49%)
-- **Python**: 54 mins (3.64%)
-- **XML**: 45 mins (3.08%)
-- **Bash**: 35 mins (2.37%)
+- **C#**: 15 hrs 29 mins (51.06%)
+- **Binary**: 7 hrs 40 mins (25.31%)
+- **Razor**: 3 hrs 13 mins (10.62%)
+- **Python**: 54 mins (2.97%)
+- **XML**: 45 mins (2.51%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
@@ -79,7 +79,7 @@
 - SCSS: 1.5%
 - TypeScript: 1.1%
 ---
-*📅 Statistics last updated: October 17, 2025*
+*📅 Statistics last updated: October 18, 2025*
 <!-- REALTIME_STATS:END -->
 
 ## 🏢 Organization Activity
