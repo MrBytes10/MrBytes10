@@ -20,14 +20,7 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 46 hrs 4 mins over the Last 7 Days**
-
-**⏱️ Time spent on each Language:**
-- **C#**: 19 hrs 28 mins (40.86%)
-- **Binary**: 14 hrs 49 mins (31.1%)
-- **Razor**: 11 hrs (23.09%)
-- **Other**: 1 hr 35 mins (3.34%)
-- **JSON**: 26 mins (0.94%)
+❌ Could not retrieve WakaTime stats.
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
@@ -68,7 +61,7 @@
 ### 🔥 Contribution Activity
 - **Last Week:** 0 commits
 - **Last Month:** 0 commits
-- **Last 6 Months:** 59 commits
+- **Last 6 Months:** 58 commits
 ### 💻 Language Distribution (by code volume)
 - Jupyter Notebook: 35.6%
 - Python: 32.2%
