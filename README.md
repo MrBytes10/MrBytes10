@@ -32,24 +32,28 @@
 
 ## 📈 Contribution Summary
 <!-- CONTRIBUTION_SUMMARY:START -->
-📊 **84** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **30** followers | 🔥 **1** commits (last month) | 📈 **10** active repos
+📊 **84** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **30** followers | 🔥 **7** commits (last month) | 📈 **10** active repos
 <!-- CONTRIBUTION_SUMMARY:END -->
 
 ## 🚀 Recent Activity
 <!-- GITHUB_ACTIVITY:START -->
-📝 Other activity in **MrBytes10/MyTradeKitBots_V2** - 11/8/2025
+🔥 Pushed 1 commit to **MrBytes10/MyPortfolio-V2withSEO-Public** - 11/9/2025
+🔀 Opened pull request in **MrBytes10/MyPortfolio-V2withSEO-Public** - 11/9/2025
+🔥 Pushed 1 commit to **MrBytes10/MyPortfolio-V2withSEO-Public** - 11/9/2025
+🔀 Opened pull request in **MrBytes10/MyPortfolio-V2withSEO-Public** - 11/9/2025
+🔥 Pushed 1 commit to **MrBytes10/MyPortfolio-V2withSEO-Public** - 11/9/2025
 <!-- GITHUB_ACTIVITY:END -->
 
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
+🚀 **[MyPortfolio-V2withSEO-Public](https://github.com/MrBytes10/MyPortfolio-V2withSEO-Public)** `JavaScript` 
+   📅 Last updated: 11/9/2025
 🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
    📅 Last updated: 11/9/2025
 🚀 **[MyTradeKitBots_V2](https://github.com/MrBytes10/MyTradeKitBots_V2)** `TypeScript` 
    📅 Last updated: 11/8/2025
 🚀 **[StockAPIs-Version2](https://github.com/MrBytes10/StockAPIs-Version2)** `C#` 
    📅 Last updated: 8/22/2025
-🚀 **[MyPortfolio-V2withSEO-Public](https://github.com/MrBytes10/MyPortfolio-V2withSEO-Public)** `JavaScript` 
-   📅 Last updated: 8/3/2025
 🚀 **[StockAPIs-Version1](https://github.com/MrBytes10/StockAPIs-Version1)** `C#` 
    📅 Last updated: 7/28/2025
 <!-- LATEST_PROJECTS:END -->
@@ -66,9 +70,9 @@
 - **Public Gists:** 0 📝
 - **Account Age:** 7 years (since 2018)
 ### 🔥 Contribution Activity
-- **Last Week:** 1 commits
-- **Last Month:** 1 commits
-- **Last 6 Months:** 59 commits
+- **Last Week:** 7 commits
+- **Last Month:** 7 commits
+- **Last 6 Months:** 65 commits
 ### 💻 Language Distribution (by code volume)
 - Jupyter Notebook: 35.2%
 - Python: 31.8%
