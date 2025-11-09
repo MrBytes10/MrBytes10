@@ -20,28 +20,30 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 19 hrs 46 mins over the Last 7 Days**
+**📊 20 hrs 45 mins over the Last 7 Days**
 
 **⏱️ Time spent on each Language:**
-- **C#**: 11 hrs 13 mins (53.8%)
-- **Binary**: 4 hrs 26 mins (21.29%)
-- **Razor**: 2 hrs 27 mins (11.79%)
-- **Other**: 1 hr 6 mins (5.29%)
-- **Markdown**: 38 mins (3.05%)
+- **C#**: 10 hrs 58 mins (50.22%)
+- **Binary**: 4 hrs 7 mins (18.88%)
+- **Razor**: 2 hrs 27 mins (11.26%)
+- **Markdown**: 1 hr 14 mins (5.66%)
+- **TypeScript**: 1 hr 9 mins (5.34%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
 <!-- CONTRIBUTION_SUMMARY:START -->
-📊 **83** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **30** followers | 🔥 **0** commits (last month) | 📈 **9** active repos
+📊 **84** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **30** followers | 🔥 **1** commits (last month) | 📈 **10** active repos
 <!-- CONTRIBUTION_SUMMARY:END -->
 
 ## 🚀 Recent Activity
 <!-- GITHUB_ACTIVITY:START -->
-
+📝 Other activity in **MrBytes10/MyTradeKitBots_V2** - 11/8/2025
 <!-- GITHUB_ACTIVITY:END -->
 
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
+🚀 **[MyTradeKitBots_V2](https://github.com/MrBytes10/MyTradeKitBots_V2)** `TypeScript` 
+   📅 Last updated: 11/8/2025
 🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
    📅 Last updated: 11/8/2025
 🚀 **[StockAPIs-Version2](https://github.com/MrBytes10/StockAPIs-Version2)** `C#` 
@@ -50,15 +52,13 @@
    📅 Last updated: 8/3/2025
 🚀 **[StockAPIs-Version1](https://github.com/MrBytes10/StockAPIs-Version1)** `C#` 
    📅 Last updated: 7/28/2025
-🚀 **[Java_SpringBoot_TaskManagementBackend](https://github.com/MrBytes10/Java_SpringBoot_TaskManagementBackend)** `Java` 
-   📅 Last updated: 7/23/2025
 <!-- LATEST_PROJECTS:END -->
 
 <!-- REALTIME_STATS:START -->
 
 ## 📊 Real-Time GitHub Statistics
 ### 🎯 Profile Overview
-- **Total Repositories:** 83
+- **Total Repositories:** 84
 - **Total Stars Earned:** 5 ⭐
 - **Total Forks:** 1 🍴
 - **Followers:** 30 👥
@@ -66,20 +66,20 @@
 - **Public Gists:** 0 📝
 - **Account Age:** 7 years (since 2018)
 ### 🔥 Contribution Activity
-- **Last Week:** 0 commits
-- **Last Month:** 0 commits
-- **Last 6 Months:** 58 commits
+- **Last Week:** 1 commits
+- **Last Month:** 1 commits
+- **Last 6 Months:** 59 commits
 ### 💻 Language Distribution (by code volume)
-- Jupyter Notebook: 35.6%
-- Python: 32.2%
-- JavaScript: 17.4%
+- Jupyter Notebook: 35.2%
+- Python: 31.8%
+- JavaScript: 17.2%
 - CSS: 5.0%
-- HTML: 4.5%
+- HTML: 4.4%
+- TypeScript: 2.3%
 - C#: 2.2%
 - SCSS: 1.5%
-- TypeScript: 1.1%
 ---
-*📅 Statistics last updated: November 8, 2025*
+*📅 Statistics last updated: November 9, 2025*
 <!-- REALTIME_STATS:END -->
 
 ## 🏢 Organization Activity
