@@ -20,19 +20,19 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 9 hrs 43 mins over the Last 7 Days**
+**📊 11 hrs 40 mins over the Last 7 Days**
 
 **⏱️ Time spent on each Language:**
-- **C#**: 6 hrs 43 mins (65.13%)
-- **Binary**: 1 hr 29 mins (14.5%)
-- **Razor**: 1 hr 18 mins (12.74%)
-- **Other**: 36 mins (5.93%)
-- **Bash**: 9 mins (1.53%)
+- **C#**: 6 hrs 22 mins (52.07%)
+- **Binary**: 1 hr 50 mins (15.08%)
+- **Razor**: 1 hr 43 mins (14.05%)
+- **Python**: 1 hr 21 mins (11.06%)
+- **Other**: 33 mins (4.59%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
 <!-- CONTRIBUTION_SUMMARY:START -->
-📊 **84** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **30** followers | 🔥 **3** commits (last month) | 📈 **9** active repos
+📊 **84** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **30** followers | 🔥 **1** commits (last month) | 📈 **9** active repos
 <!-- CONTRIBUTION_SUMMARY:END -->
 
 ## 🚀 Recent Activity
@@ -46,7 +46,7 @@
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
 🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
-   📅 Last updated: 12/15/2025
+   📅 Last updated: 12/16/2025
 🚀 **[MyPortfolio-V2withSEO-Public](https://github.com/MrBytes10/MyPortfolio-V2withSEO-Public)** `JavaScript` 
    📅 Last updated: 11/16/2025
 🚀 **[MyTradeKitBots_V2](https://github.com/MrBytes10/MyTradeKitBots_V2)** `TypeScript` 
@@ -70,7 +70,7 @@
 - **Account Age:** 7 years (since 2018)
 ### 🔥 Contribution Activity
 - **Last Week:** 0 commits
-- **Last Month:** 3 commits
+- **Last Month:** 1 commits
 - **Last 6 Months:** 72 commits
 ### 💻 Language Distribution (by code volume)
 - Jupyter Notebook: 35.2%
