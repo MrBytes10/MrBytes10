@@ -20,12 +20,19 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-❌ Could not retrieve WakaTime stats.
+**📊 1 hr 42 mins over the Last 7 Days**
+
+**⏱️ Time spent on each Language:**
+- **C#**: 1 hr 5 mins (56.87%)
+- **Other**: 11 mins (10.31%)
+- **Binary**: 8 mins (7.78%)
+- **Razor**: 8 mins (7.68%)
+- **Python**: 8 mins (7.15%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
 <!-- CONTRIBUTION_SUMMARY:START -->
-📊 **84** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **30** followers | 🔥 **0** commits (last month) | 📈 **9** active repos
+📊 **84** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **32** followers | 🔥 **0** commits (last month) | 📈 **9** active repos
 <!-- CONTRIBUTION_SUMMARY:END -->
 
 ## 🚀 Recent Activity
@@ -54,7 +61,7 @@
 - **Total Repositories:** 84
 - **Total Stars Earned:** 5 ⭐
 - **Total Forks:** 1 🍴
-- **Followers:** 30 👥
+- **Followers:** 32 👥
 - **Following:** 39 👥
 - **Public Gists:** 0 📝
 - **Account Age:** 7 years (since 2018)
