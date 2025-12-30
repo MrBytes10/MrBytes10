@@ -20,13 +20,10 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 20 mins over the Last 7 Days**
+**📊 0 secs over the Last 7 Days**
 
 **⏱️ Time spent on each Language:**
-- **Razor**: 7 mins (36.6%)
-- **C#**: 6 mins (32.02%)
-- **CSHTML**: 4 mins (20.38%)
-- **Git Config**: 2 mins (11%)
+
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
@@ -78,7 +75,7 @@
 - C#: 2.2%
 - SCSS: 1.5%
 ---
-*📅 Statistics last updated: December 29, 2025*
+*📅 Statistics last updated: December 30, 2025*
 <!-- REALTIME_STATS:END -->
 
 ## 🏢 Organization Activity
