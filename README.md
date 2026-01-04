@@ -20,13 +20,7 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 54 mins over the Last 7 Days**
-
-**⏱️ Time spent on each Language:**
-- **Python**: 52 mins (96.98%)
-- **C#**: 0 secs (1.4%)
-- **Other**: 0 secs (0.9%)
-- **Binary**: 0 secs (0.72%)
+❌ Could not retrieve WakaTime stats.
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
@@ -43,7 +37,7 @@
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
 🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
-   📅 Last updated: 1/3/2026
+   📅 Last updated: 1/4/2026
 🚀 **[NicheHunter](https://github.com/MrBytes10/NicheHunter)** `Python` 
    📅 Last updated: 1/3/2026
 🚀 **[TrendHunter](https://github.com/MrBytes10/TrendHunter)** `Python` 
