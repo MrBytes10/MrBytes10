@@ -32,7 +32,7 @@
 
 ## 📈 Contribution Summary
 <!-- CONTRIBUTION_SUMMARY:START -->
-📊 **86** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **37** followers | 🔥 **4** commits (last month) | 📈 **12** active repos
+📊 **86** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **36** followers | 🔥 **4** commits (last month) | 📈 **12** active repos
 <!-- CONTRIBUTION_SUMMARY:END -->
 
 ## 🚀 Recent Activity
@@ -64,7 +64,7 @@
 - **Total Repositories:** 86
 - **Total Stars Earned:** 5 ⭐
 - **Total Forks:** 1 🍴
-- **Followers:** 37 👥
+- **Followers:** 36 👥
 - **Following:** 47 👥
 - **Public Gists:** 0 📝
 - **Account Age:** 8 years (since 2018)
