@@ -69,7 +69,7 @@
 - **Public Gists:** 0 📝
 - **Account Age:** 8 years (since 2018)
 ### 🔥 Contribution Activity
-- **Last Week:** 2 commits
+- **Last Week:** 0 commits
 - **Last Month:** 4 commits
 - **Last 6 Months:** 72 commits
 ### 💻 Language Distribution (by code volume)
