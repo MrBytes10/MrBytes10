@@ -20,14 +20,14 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 10 hrs 11 mins over the Last 7 Days**
+**📊 7 hrs 35 mins over the Last 7 Days**
 
 **⏱️ Time spent on each Language:**
-- **C#**: 4 hrs 16 mins (37.57%)
-- **Binary**: 2 hrs 10 mins (19.11%)
-- **Razor**: 1 hr 22 mins (12.13%)
-- **CSHTML**: 1 hr 14 mins (10.96%)
-- **Other**: 1 hr 9 mins (10.24%)
+- **C#**: 3 hrs 7 mins (35.65%)
+- **Binary**: 1 hr 55 mins (22.09%)
+- **Other**: 1 hr 9 mins (13.3%)
+- **Razor**: 53 mins (10.2%)
+- **CSHTML**: 40 mins (7.79%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
@@ -46,13 +46,13 @@
 
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
+🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
+   📅 Last updated: 1/14/2026
 🚀 **[TaskManagementFrontend](https://github.com/MrBytes10/TaskManagementFrontend)** `TypeScript` 
    📅 Last updated: 1/13/2026
 🚀 **[MyPortfolio-V2withSEO-Public](https://github.com/MrBytes10/MyPortfolio-V2withSEO-Public)** `JavaScript` 
    📅 Last updated: 1/13/2026
 🚀 **[Chanku-Global-Investments-V2withSEO](https://github.com/MrBytes10/Chanku-Global-Investments-V2withSEO)** `JavaScript` 
-   📅 Last updated: 1/13/2026
-🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
    📅 Last updated: 1/13/2026
 🚀 **[sceedmillinery_frontend](https://github.com/MrBytes10/sceedmillinery_frontend)** `JavaScript` 
    📅 Last updated: 1/5/2026
