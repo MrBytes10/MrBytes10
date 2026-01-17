@@ -72,7 +72,7 @@
 ### 🔥 Contribution Activity
 - **Last Week:** 3 commits
 - **Last Month:** 7 commits
-- **Last 6 Months:** 75 commits
+- **Last 6 Months:** 65 commits
 ### 💻 Language Distribution (by code volume)
 - Jupyter Notebook: 35.2%
 - Python: 31.8%
