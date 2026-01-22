@@ -20,19 +20,19 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 23 hrs over the Last 7 Days**
+**📊 23 hrs 43 mins over the Last 7 Days**
 
 **⏱️ Time spent on each Language:**
-- **C#**: 11 hrs 13 mins (48.01%)
-- **TypeScript**: 8 hrs 30 mins (36.39%)
-- **Binary**: 2 hrs 28 mins (10.61%)
-- **Other**: 22 mins (1.62%)
-- **Razor**: 15 mins (1.11%)
+- **C#**: 12 hrs 37 mins (52.39%)
+- **TypeScript**: 7 hrs 46 mins (32.24%)
+- **Binary**: 2 hrs 38 mins (10.97%)
+- **Other**: 22 mins (1.58%)
+- **Razor**: 16 mins (1.15%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
 <!-- CONTRIBUTION_SUMMARY:START -->
-📊 **86** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **38** followers | 🔥 **7** commits (last month) | 📈 **11** active repos
+📊 **86** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **37** followers | 🔥 **7** commits (last month) | 📈 **11** active repos
 <!-- CONTRIBUTION_SUMMARY:END -->
 
 ## 🚀 Recent Activity
@@ -47,7 +47,7 @@
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
 🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
-   📅 Last updated: 1/21/2026
+   📅 Last updated: 1/22/2026
 🚀 **[TaskManagementFrontend](https://github.com/MrBytes10/TaskManagementFrontend)** `TypeScript` 
    📅 Last updated: 1/13/2026
 🚀 **[MyPortfolio-V2withSEO-Public](https://github.com/MrBytes10/MyPortfolio-V2withSEO-Public)** `JavaScript` 
@@ -65,7 +65,7 @@
 - **Total Repositories:** 86
 - **Total Stars Earned:** 5 ⭐
 - **Total Forks:** 1 🍴
-- **Followers:** 38 👥
+- **Followers:** 37 👥
 - **Following:** 47 👥
 - **Public Gists:** 0 📝
 - **Account Age:** 8 years (since 2018)
