@@ -20,14 +20,14 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 15 hrs 3 mins over the Last 7 Days**
+**📊 16 hrs 51 mins over the Last 7 Days**
 
 **⏱️ Time spent on each Language:**
-- **C#**: 9 hrs 57 mins (65.33%)
-- **Binary**: 2 hrs 10 mins (14.32%)
-- **Razor**: 1 hr 44 mins (11.45%)
-- **TypeScript**: 32 mins (3.6%)
-- **JSON**: 23 mins (2.56%)
+- **C#**: 11 hrs 32 mins (65.2%)
+- **Binary**: 2 hrs 33 mins (14.45%)
+- **Razor**: 1 hr 43 mins (9.76%)
+- **Other**: 50 mins (4.76%)
+- **TypeScript**: 28 mins (2.69%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
@@ -47,7 +47,7 @@
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
 🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
-   📅 Last updated: 1/28/2026
+   📅 Last updated: 1/29/2026
 🚀 **[TaskManagementFrontend](https://github.com/MrBytes10/TaskManagementFrontend)** `TypeScript` 
    📅 Last updated: 1/13/2026
 🚀 **[MyPortfolio-V2withSEO-Public](https://github.com/MrBytes10/MyPortfolio-V2withSEO-Public)** `JavaScript` 
