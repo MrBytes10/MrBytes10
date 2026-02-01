@@ -23,8 +23,8 @@
 **📊 12 hrs 11 mins over the Last 7 Days**
 
 **⏱️ Time spent on each Language:**
-- **C#**: 8 hrs 26 mins (62.1%)
-- **Binary**: 2 hrs 17 mins (16.81%)
+- **C#**: 8 hrs 26 mins (62.11%)
+- **Binary**: 2 hrs 17 mins (16.79%)
 - **Other**: 1 hr 24 mins (10.4%)
 - **Razor**: 41 mins (5.09%)
 - **TypeScript**: 28 mins (3.5%)
@@ -47,7 +47,7 @@
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
 🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
-   📅 Last updated: 1/31/2026
+   📅 Last updated: 2/1/2026
 🚀 **[TaskManagementFrontend](https://github.com/MrBytes10/TaskManagementFrontend)** `TypeScript` 
    📅 Last updated: 1/13/2026
 🚀 **[MyPortfolio-V2withSEO-Public](https://github.com/MrBytes10/MyPortfolio-V2withSEO-Public)** `JavaScript` 
