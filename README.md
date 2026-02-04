@@ -40,8 +40,6 @@
 🔥 Pushed 1 commit to **MrBytes10/TaskManagementFrontend** - 1/13/2026
 🔥 Pushed 1 commit to **MrBytes10/MyPortfolio-V2withSEO-Public** - 1/13/2026
 🔥 Pushed 1 commit to **MrBytes10/Chanku-Global-Investments-V2withSEO** - 1/13/2026
-🔥 Pushed 1 commit to **MrBytes10/sceedmillinery_frontend** - 1/5/2026
-🔥 Pushed 1 commit to **MrBytes10/sceedmillinery_frontend** - 1/5/2026
 <!-- GITHUB_ACTIVITY:END -->
 
 ## 🔥 Latest Projects
