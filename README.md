@@ -20,19 +20,12 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 9 hrs 31 mins over the Last 7 Days**
-
-**⏱️ Time spent on each Language:**
-- **C#**: 6 hrs 16 mins (57.83%)
-- **Binary**: 1 hr 27 mins (13.52%)
-- **Other**: 1 hr 19 mins (12.19%)
-- **TypeScript**: 1 hr 4 mins (9.9%)
-- **Razor**: 33 mins (5.19%)
+❌ Could not retrieve WakaTime stats.
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
 <!-- CONTRIBUTION_SUMMARY:START -->
-📊 **86** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **36** followers | 🔥 **5** commits (last month) | 📈 **8** active repos
+📊 **86** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **36** followers | 🔥 **3** commits (last month) | 📈 **8** active repos
 <!-- CONTRIBUTION_SUMMARY:END -->
 
 ## 🚀 Recent Activity
@@ -69,7 +62,7 @@
 - **Account Age:** 8 years (since 2018)
 ### 🔥 Contribution Activity
 - **Last Week:** 0 commits
-- **Last Month:** 5 commits
+- **Last Month:** 3 commits
 - **Last 6 Months:** 32 commits
 ### 💻 Language Distribution (by code volume)
 - Jupyter Notebook: 35.2%
