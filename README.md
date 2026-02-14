@@ -32,7 +32,7 @@
 
 ## 📈 Contribution Summary
 <!-- CONTRIBUTION_SUMMARY:START -->
-📊 **86** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **35** followers | 🔥 **9** commits (last month) | 📈 **8** active repos
+📊 **86** repositories | ⭐ **5** stars received | 🍴 **1** forks | 👥 **35** followers | 🔥 **6** commits (last month) | 📈 **8** active repos
 <!-- CONTRIBUTION_SUMMARY:END -->
 
 ## 🚀 Recent Activity
@@ -71,7 +71,7 @@
 - **Account Age:** 8 years (since 2018)
 ### 🔥 Contribution Activity
 - **Last Week:** 6 commits
-- **Last Month:** 9 commits
+- **Last Month:** 6 commits
 - **Last 6 Months:** 38 commits
 ### 💻 Language Distribution (by code volume)
 - Jupyter Notebook: 35.2%
@@ -83,7 +83,7 @@
 - C#: 2.2%
 - SCSS: 1.5%
 ---
-*📅 Statistics last updated: February 13, 2026*
+*📅 Statistics last updated: February 14, 2026*
 <!-- REALTIME_STATS:END -->
 
 ## 🏢 Organization Activity
