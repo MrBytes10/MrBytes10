@@ -74,14 +74,14 @@
 - **Last Month:** 6 commits
 - **Last 6 Months:** 38 commits
 ### 💻 Language Distribution (by code volume)
-- Jupyter Notebook: 35.2%
-- Python: 31.8%
-- JavaScript: 17.2%
-- CSS: 5.0%
-- HTML: 4.4%
-- TypeScript: 2.3%
-- C#: 2.2%
-- SCSS: 1.5%
+- Python: 33.7%
+- Jupyter Notebook: 31.4%
+- JavaScript: 18.2%
+- CSS: 5.3%
+- HTML: 4.7%
+- TypeScript: 2.4%
+- C#: 2.3%
+- SCSS: 1.6%
 ---
 *📅 Statistics last updated: February 17, 2026*
 <!-- REALTIME_STATS:END -->
