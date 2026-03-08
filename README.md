@@ -20,7 +20,14 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-❌ Could not retrieve WakaTime stats.
+**📊 22 hrs 26 mins over the Last 7 Days**
+
+**⏱️ Time spent on each Language:**
+- **C#**: 10 hrs 24 mins (44.45%)
+- **Binary**: 5 hrs 36 mins (23.97%)
+- **Razor**: 4 hrs 54 mins (20.96%)
+- **JSON**: 1 hr 2 mins (4.46%)
+- **Other**: 57 mins (4.12%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
@@ -76,7 +83,7 @@
 - C#: 2.2%
 - SCSS: 1.5%
 ---
-*📅 Statistics last updated: March 7, 2026*
+*📅 Statistics last updated: March 8, 2026*
 <!-- REALTIME_STATS:END -->
 
 ## 🏢 Organization Activity
