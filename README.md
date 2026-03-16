@@ -20,7 +20,14 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-❌ Could not retrieve WakaTime stats.
+**📊 7 hrs 12 mins over the Last 7 Days**
+
+**⏱️ Time spent on each Language:**
+- **C#**: 4 hrs 20 mins (55.27%)
+- **Binary**: 1 hr 30 mins (19.11%)
+- **Other**: 39 mins (8.35%)
+- **Python**: 35 mins (7.51%)
+- **Bash**: 14 mins (3.02%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
