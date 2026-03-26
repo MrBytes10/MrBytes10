@@ -20,7 +20,13 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-❌ Could not retrieve WakaTime stats.
+**📊 18 hrs 59 mins over the Last 7 Days**
+
+**⏱️ Time spent on each Language:**
+- **C#**: 14 hrs 31 mins (67.69%)
+- **Binary**: 4 hrs 24 mins (20.57%)
+- **Other**: 2 hrs 28 mins (11.54%)
+- **JSON**: 2 mins (0.2%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
@@ -36,7 +42,7 @@
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
 🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
-   📅 Last updated: 3/25/2026
+   📅 Last updated: 3/26/2026
 🚀 **[sceedmillinery_frontend](https://github.com/MrBytes10/sceedmillinery_frontend)** `JavaScript` 
    📅 Last updated: 3/23/2026
 🚀 **[MyPortfolio-V2withSEO-Public](https://github.com/MrBytes10/MyPortfolio-V2withSEO-Public)** `JavaScript` 
