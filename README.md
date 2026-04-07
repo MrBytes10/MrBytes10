@@ -20,14 +20,12 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 7 hrs 31 mins over the Last 7 Days**
+**📊 4 hrs 30 mins over the Last 7 Days**
 
 **⏱️ Time spent on each Language:**
-- **C#**: 4 hrs 40 mins (55.48%)
-- **Binary**: 1 hr 52 mins (22.12%)
-- **Razor**: 57 mins (11.34%)
-- **Other**: 55 mins (10.88%)
-- **JSON**: 0 secs (0.18%)
+- **C#**: 3 hrs 21 mins (62.93%)
+- **Binary**: 1 hr 8 mins (21.39%)
+- **Other**: 50 mins (15.68%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
@@ -37,20 +35,20 @@
 
 ## 🚀 Recent Activity
 <!-- GITHUB_ACTIVITY:START -->
-📝 Other activity in **MrBytes10/sceedmillinery_frontend** - 3/19/2026
+📝 Other activity in **AugastineNdeti/sceedmillinery_frontend** - 3/19/2026
 <!-- GITHUB_ACTIVITY:END -->
 
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
-🚀 **[MrBytes10](https://github.com/MrBytes10/MrBytes10)** `JavaScript` 
-   📅 Last updated: 4/6/2026
-🚀 **[sceedmillinery_frontend](https://github.com/MrBytes10/sceedmillinery_frontend)** `JavaScript` 
+🚀 **[MrBytes10](https://github.com/AugastineNdeti/MrBytes10)** `JavaScript` 
+   📅 Last updated: 4/7/2026
+🚀 **[sceedmillinery_frontend](https://github.com/AugastineNdeti/sceedmillinery_frontend)** `JavaScript` 
    📅 Last updated: 3/26/2026
-🚀 **[MyPortfolio-V2withSEO-Public](https://github.com/MrBytes10/MyPortfolio-V2withSEO-Public)** `JavaScript` 
+🚀 **[MyPortfolio-V2withSEO-Public](https://github.com/AugastineNdeti/MyPortfolio-V2withSEO-Public)** `JavaScript` 
    📅 Last updated: 2/8/2026
-🚀 **[TaskManagementFrontend](https://github.com/MrBytes10/TaskManagementFrontend)** `TypeScript` 
+🚀 **[TaskManagementFrontend](https://github.com/AugastineNdeti/TaskManagementFrontend)** `TypeScript` 
    📅 Last updated: 1/13/2026
-🚀 **[Chanku-Global-Investments-V2withSEO](https://github.com/MrBytes10/Chanku-Global-Investments-V2withSEO)** `JavaScript` 
+🚀 **[Chanku-Global-Investments-V2withSEO](https://github.com/AugastineNdeti/Chanku-Global-Investments-V2withSEO)** `JavaScript` 
    📅 Last updated: 1/13/2026
 <!-- LATEST_PROJECTS:END -->
 
