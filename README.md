@@ -32,14 +32,16 @@
 
 ## 📈 Contribution Summary
 <!-- CONTRIBUTION_SUMMARY:START -->
-📊 **87** repositories | ⭐ **9** stars received | 🍴 **1** forks | 👥 **37** followers | 🔥 **3** commits (last month) | 📈 **8** active repos
+📊 **87** repositories | ⭐ **9** stars received | 🍴 **1** forks | 👥 **37** followers | 🔥 **8** commits (last month) | 📈 **8** active repos
 <!-- CONTRIBUTION_SUMMARY:END -->
 
 ## 🚀 Recent Activity
 <!-- GITHUB_ACTIVITY:START -->
 🔥 Pushed 1 commit to **AugastineNdeti/SubscriptionBilling** - 4/25/2026
 🔥 Pushed 1 commit to **AugastineNdeti/SubscriptionBilling** - 4/25/2026
-📝 Other activity in **AugastineNdeti/SubscriptionBilling** - 4/25/2026
+🔥 Pushed 1 commit to **AugastineNdeti/SubscriptionBilling** - 4/25/2026
+🔥 Pushed 1 commit to **AugastineNdeti/SubscriptionBilling** - 4/25/2026
+🔥 Pushed 1 commit to **AugastineNdeti/SubscriptionBilling** - 4/25/2026
 <!-- GITHUB_ACTIVITY:END -->
 
 ## 🔥 Latest Projects
@@ -68,11 +70,11 @@
 - **Public Gists:** 0 📝
 - **Account Age:** 8 years (since 2018)
 ### 🔥 Contribution Activity
-- **Last Week:** 3 commits
-- **Last Month:** 3 commits
-- **Last 6 Months:** 38 commits
+- **Last Week:** 8 commits
+- **Last Month:** 8 commits
+- **Last 6 Months:** 43 commits
 ### 💻 Language Distribution (by code volume)
-- Jupyter Notebook: 35.2%
+- Jupyter Notebook: 35.1%
 - Python: 31.8%
 - JavaScript: 17.2%
 - CSS: 5.0%
