@@ -20,13 +20,12 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 4 hrs 44 mins over the Last 7 Days**
+**📊 4 hrs 31 mins over the Last 7 Days**
 
 **⏱️ Time spent on each Language:**
-- **C#**: 3 hrs 32 mins (62.99%)
-- **Binary**: 1 hr 2 mins (18.56%)
-- **Other**: 52 mins (15.67%)
-- **JSON**: 9 mins (2.78%)
+- **C#**: 3 hrs 31 mins (65.41%)
+- **Binary**: 59 mins (18.3%)
+- **Other**: 52 mins (16.29%)
 - **XML**: 0 secs (0%)
 <!-- WAKATIME_STATS:END -->
 
@@ -47,7 +46,7 @@
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
 🚀 **[MrBytes10](https://github.com/AugastineNdeti/MrBytes10)** `JavaScript` 
-   📅 Last updated: 4/26/2026
+   📅 Last updated: 4/27/2026
 🚀 **[SubscriptionBilling](https://github.com/AugastineNdeti/SubscriptionBilling)** `C#` 
    📅 Last updated: 4/25/2026
 🚀 **[sceedmillinery_frontend](https://github.com/AugastineNdeti/sceedmillinery_frontend)** `JavaScript` 
