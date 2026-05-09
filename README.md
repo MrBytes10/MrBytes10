@@ -32,7 +32,7 @@
 
 ## 📈 Contribution Summary
 <!-- CONTRIBUTION_SUMMARY:START -->
-📊 **87** repositories | ⭐ **9** stars received | 🍴 **1** forks | 👥 **37** followers | 🔥 **8** commits (last month) | 📈 **8** active repos
+📊 **87** repositories | ⭐ **9** stars received | 🍴 **1** forks | 👥 **37** followers | 🔥 **8** commits (last month) | 📈 **7** active repos
 <!-- CONTRIBUTION_SUMMARY:END -->
 
 ## 🚀 Recent Activity
@@ -72,7 +72,7 @@
 ### 🔥 Contribution Activity
 - **Last Week:** 0 commits
 - **Last Month:** 8 commits
-- **Last 6 Months:** 43 commits
+- **Last 6 Months:** 42 commits
 ### 💻 Language Distribution (by code volume)
 - Jupyter Notebook: 35.1%
 - Python: 31.8%
@@ -83,7 +83,7 @@
 - C#: 2.3%
 - SCSS: 1.5%
 ---
-*📅 Statistics last updated: May 8, 2026*
+*📅 Statistics last updated: May 9, 2026*
 <!-- REALTIME_STATS:END -->
 
 ## 🏢 Organization Activity
