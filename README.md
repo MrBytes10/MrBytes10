@@ -45,7 +45,7 @@
 ## 🔥 Latest Projects
 <!-- LATEST_PROJECTS:START -->
 🚀 **[MrBytes10](https://github.com/AugastineNdeti/MrBytes10)** `JavaScript` 
-   📅 Last updated: 5/12/2026
+   📅 Last updated: 5/13/2026
 🚀 **[SubscriptionBilling](https://github.com/AugastineNdeti/SubscriptionBilling)** `C#` 
    📅 Last updated: 4/25/2026
 🚀 **[sceedmillinery_frontend](https://github.com/AugastineNdeti/sceedmillinery_frontend)** `JavaScript` 
@@ -70,7 +70,7 @@
 ### 🔥 Contribution Activity
 - **Last Week:** 0 commits
 - **Last Month:** 8 commits
-- **Last 6 Months:** 27 commits
+- **Last 6 Months:** 25 commits
 ### 💻 Language Distribution (by code volume)
 - Jupyter Notebook: 35.1%
 - Python: 31.8%
