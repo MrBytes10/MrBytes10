@@ -20,12 +20,12 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 0 secs over the Last 7 Days**
+**📊 51 mins over the Last 7 Days**
 
 **⏱️ Time spent on each Language:**
-- **C#**: 9 mins (96.32%)
-- **Other**: 0 secs (2.28%)
-- **Razor**: 0 secs (1.4%)
+- **TypeScript**: 39 mins (78.43%)
+- **Bash**: 10 mins (21.26%)
+- **Git Config**: 0 secs (0.31%)
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
