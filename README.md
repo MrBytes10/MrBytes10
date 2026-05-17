@@ -20,12 +20,7 @@
 
 ## 📊 WakaTime Stats
 <!-- WAKATIME_STATS:START -->
-**📊 51 mins over the Last 7 Days**
-
-**⏱️ Time spent on each Language:**
-- **TypeScript**: 39 mins (78.43%)
-- **Bash**: 10 mins (21.26%)
-- **Git Config**: 0 secs (0.31%)
+❌ Could not retrieve WakaTime stats.
 <!-- WAKATIME_STATS:END -->
 
 ## 📈 Contribution Summary
